@@ -9,10 +9,11 @@
         body {
             background-color: black;
             color: white;
-            font: arial;
+            font: verdana;
         }
         h1 {
             color: lightgray;
+            font: verdana;
         }
     </style>
 </head>
@@ -23,7 +24,7 @@
         var n1 = Number.parseFloat(window.prompt('Digite um número'))
         var n2 = Number.parseFloat(window.prompt('Digite outro número'))
         var s = n1 + n2
-        window.alert('A soma dos valores é ' + String(s) + '.') // Concatenação
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}.`)
         //(number + number) para adição
         //(string + string) para concatenação
     </script>
